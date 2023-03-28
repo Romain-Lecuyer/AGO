@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    position: fixed;
+    width: 100%;
+    display: inline-flex;
+    justify-content: left;
+    flex-direction: center;
+    align-items: Left;
+    
+    transition: 0.6s;
+    margin:-100px 0px 0px 0px; /* haut | droit | bas | gauche */
+    padding: 0px 100px;
+    z-index: 10000;
+    background: rgb(255, 145, 0);
+}
+
+body {
+    
+    width:100%;
+    min-width: 700px;
+    max-width:1980px;
+    background-color: rgb(56, 56, 56);
+    z-index: -10;
+    margin:auto;
+    display: run-in;
+    
+    
+}
+
+@font-face {
+    font-family: "Baby Kruffy";
+    src: url("../../../Font/Baby\ Kruffy.ttf");
+}
+
+.Titre{
+    color: white;
+    font-size: 40px;
+    font-family: Baby Kruffy;
+    text-decoration: none;
+    
+}
+
+
+

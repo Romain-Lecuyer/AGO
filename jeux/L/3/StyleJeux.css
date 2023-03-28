@@ -1,0 +1,288 @@
+
+body {
+    
+    width:100%;
+    min-width: 700px;
+    max-width:1980px;
+    background-color: rgb(56, 56, 56);
+    z-index: -10;
+    margin:auto;
+    display: run-in;
+    
+    
+}
+
+.BoddJeuxJeux{
+    padding-left: 10px;
+    padding-top: 70px ;
+    margin-bottom: -100px;
+}
+
+.BoddJeux .box{
+	position: relative;
+    width: 70vw;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: block;
+    background: rgb(149, 149, 149);
+    
+}
+
+.BoddJeux .boxTitre{
+	position: relative;
+    width: 70vw;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+    background: rgb(206, 206, 206);
+    
+}
+
+.BoddJeux .boxTitre .titre{
+
+    font-size: 4vw;
+    font-weight: 700px;
+    justify-content: center;
+}
+
+.BoddJeux .box .Cblock{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background: rgb(122, 122, 122);
+    
+}
+.BoddJeux .box .Cblock .BlockJeux{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width:40vw;
+    height: 100%;
+    justify-items: center;
+    background: rgb(139, 139, 139);
+    
+}
+
+.BoddJeux .box .Cblock .blocktime{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 10%;
+    width: 10vw;
+    height: 10%;
+    justify-content: center;
+    
+}
+
+.BoddJeux .box .Cblock .blocktime .Chrono{
+    position: relative;
+    font-size: 1.5vw;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border: solid;
+    
+}
+.BoddJeux .box .Cblock .blocktime .Start{
+    position: relative;
+    
+    font-size: 1.5vw;
+    width: 100%;
+    background: rgb(30, 255, 0);
+    border: solid;
+    display: block ;
+    
+}
+
+.BoddJeux .box .Cblock .blocktime .choixdiff{
+    position: relative;
+    
+    font-size: 1.5vw;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border: solid;
+    display: block ;
+    
+}
+
+.BoddJeux .box .Cblock .blocktime .Diff1{
+    position: relative;
+    
+    font-size: 1.5vw;
+    width: 100%;
+    background: green;
+    border: solid;
+    display: block ;
+    
+}
+
+.BoddJeux .box .Cblock .blocktime .Diff2{
+    position: relative;
+    
+    font-size: 1.5vw;
+    width: 100%;
+    background: orange;
+    border: solid;
+    display: block ;
+    
+}
+
+.BoddJeux .box .Cblock .blocktime .Diff3{
+    position: relative;
+    
+    font-size: 1.5vw;
+    width: 100%;
+    background: red;
+    border: solid;
+    display: block ;
+    
+}
+
+.BoddJeux .box .Cblock .BlockScord{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 10%;
+    width: 10vw;
+    height: 10vh;
+    justify-content: center;
+    vertical-align: center;
+    background: rgb(255, 255, 255);
+    border: solid;
+    
+}
+.BoddJeux .box .Cblock .BlockScord .tsc{
+    position: relative;
+    margin-left: 10px;
+    font-size: 1.5vw;
+    color: black;
+}
+.BoddJeux .box .Cblock .BlockScord .SC{
+    position: relative;
+    margin-left: 10px;
+    font-size: 1.5vw;
+    
+}
+/* Jeux */
+
+
+.BoddJeux .box .Cblock .BlockJeux .B1{
+    position: relative;
+    margin:7% 0px -0.6% 35%; /* haut | droit | bas | gauche */
+    width:12vw;
+    height: 12vw;
+    background: rgb(90, 84, 0);
+    border: solid;
+    
+}
+
+
+.BoddJeux .box .Cblock .BlockJeux .B2{
+    position: relative;
+    margin:0px  0px 0px 5.6%; /* haut | droit | bas | gauche */
+    width:12vw;
+    height: 12vw;
+    background: rgb(90, 0, 0);
+    border: solid;
+    
+}
+
+.BoddJeux .box .Cblock .BlockJeux .B3{
+    position: relative;
+    margin:-12vw 0% 0% 35%; /* haut | droit | bas | gauche */
+    width:12vw;
+    height: 12vw;
+    background: rgb(0, 0, 0);
+    border: solid;
+    
+}
+
+.BoddJeux .box .Cblock .BlockJeux .B4{
+    position: relative;
+    margin:-12vw 0% 0% 64.6%; /* haut | droit | bas | gauche */
+    width:12vw;
+    height: 12vw;
+    background: rgb(0, 15, 90);
+    border: solid;
+    
+}
+
+.BoddJeux .box .Cblock .BlockJeux .B5{
+    position: relative;
+    margin:-0.6% 0% 7% 35%; /* haut | droit | bas | gauche */
+    width:12vw;
+    height: 12vw;
+    background: rgb(0, 90, 0);
+    border: solid;
+    
+}
+
+.BoddJeux .box .Cblock .BlockJeux .B1 .C{
+    position: relative;
+    width:100%;
+    height: 100%;
+    background: rgb(255, 238, 0);
+    border: solid;
+    
+}
+
+
+.BoddJeux .box .Cblock .BlockJeux .B2 .C{
+    position: relative;
+    width:100%;
+    height: 100%;
+    background: rgb(255, 0, 0);
+    border: solid;
+    
+}
+
+.BoddJeux .box .Cblock .BlockJeux .B4 .C{
+    position: relative;
+    width:100%;
+    height: 100%;
+    background: rgb(0, 42, 255);
+    border: solid;
+    
+}
+
+.BoddJeux .box .Cblock .BlockJeux .B5 .C{
+    position: relative;
+    width:100%;
+    height: 100%;
+    background: rgb(0, 255, 0);
+    border: solid;
+    
+}
+
+.BoddJeux .box .titredescrip{
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700px;
+    text-decoration: underline;
+}
+.BoddJeux .box .descrip{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 700px;
+    
+}
+
+.BoddJeux .invi{
+
+    margin-top: 50px;
+    font-size: 1px;
+    font-weight: 700px;
+    z-index: -10000;
+}
+
+
+

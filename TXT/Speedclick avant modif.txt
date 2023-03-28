@@ -1,0 +1,39 @@
+<div class="Cblock">
+                    <div class="BlockJeux">
+                        <div class="B1" id="b1">
+                        </div>
+                        <div class="B2" id="b2">
+                        </div>
+                        <div class="B3" id="b3">
+                        </div>
+                        <div class="B4" id="b4">
+                        </div>
+                        <div class="B5" id="b5">
+                        </div>
+                        <div class="B6" id="b6">
+                        </div>
+                        <div class="B7" id="b7">
+                        </div>
+                        <div class="B8" id="b8">
+                        </div>
+                        <div class="B9" id="b9">
+                        </div>
+                    </div>
+                    <div class="blocktime" >
+                        <form name="chronoForm">
+                            <input class="Chrono" type="text" name="chronotime" id="chronotime" value="00:00:00"/>
+                            <div id="Bouton">
+                                <input class="Start" type="button" name="startstop"  value="Commencer" onClick="blostart()" />
+                            </div>
+                            
+                          </form>
+                    </div>
+                    <div class="BlockScord" >
+                        <p class="tsc">Score :</p>
+                        <p class="SC" id="scord">0</p>
+                    </div>
+                    
+                </div>
+
+
+

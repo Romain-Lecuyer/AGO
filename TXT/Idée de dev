@@ -1,0 +1,18 @@
+Faire une fonctionnaliter pour savoir si un amis et en ligne ou non
+
+lorsqu'une personne et connecter, sont statue dans la bdd change en actif et cela permet de
+faire une requete SQL pour savoir le statu u lieu de jouer avec le node
+
+et lorsque l'utilisateur et deconnecter son statue dans la bd revie ou redevien inactif
+
+cela nous permet de crée d'autre statue comme invisible, de pas dérenger, absent.
+
+
+FAIRE LA MODIFICATION QUAND IL CE CONNECT en passent par la connection
+PUIS lorsqu'il ce déconnect ou qu'il quite la page il faudra re modifier la bdd
+Pour le fermeture de la page il faudra juste verifier si une session et ouvert
+
+faire une procedure stocket qui fera:
+recuperer tout les information comprenant l'id de le personne connecter
+Traitement des donnée qui permet de récuperer la valeur qui est different a celui de l'id de la personne connecter
+pour avoir les autre utilisateur qui sont amis avec lui.

@@ -1,0 +1,514 @@
+@font-face {
+    font-family: "Baby Kruffy";
+    src: url("../Font/Baby Kruffy.ttf");
+}
+@font-face {
+    font-family: "Autumn";
+    src: url("../Font/Autumn\ Regular.ttf");
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    position: fixed;
+    width: 100%;
+    margin-left: 0px;
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    transition: 0.6s;
+    padding: 0px 100px;
+    z-index: 10000;
+    background: rgb(255, 145, 0);
+}
+
+body {
+    
+    width:100%;
+    min-width: 700px;
+    max-width:1980px;
+    background-color: white;
+    z-index: -10;
+    margin:auto;
+    display: run-in;
+    position: flex;
+    
+    
+}
+
+/* Titre du site plus menu */
+.Titre{
+    position: relative;
+    color: white;
+    font-size: 40px;
+    font-family: "Baby Kruffy";
+    text-decoration: none;
+    margin-top: 5px;
+}
+/*
+.TitreP{
+    color: white;
+    font-size: 40px;
+    font-family: "Baby Kruffy";
+    margin-top: 5px;
+    
+}
+*/
+
+
+
+.menu_defaut{
+    font-family: "Autumn";
+    position: relative;
+    width: 250px;
+    margin-left: 60vw;
+    
+}
+
+.menu_defaut .login{
+    position: relative;
+    font-size: 20px;
+    margin-right: 40px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.menu_defaut .register{
+    position: relative;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.menu_connecte{
+    font-family: "Autumn";
+    position: relative;
+    width: 500px;
+    margin-left: 50vw;  
+}
+
+.menu_connecte .text{
+    position: relative;
+    font-size: 20px;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    visibility: visible;
+}
+
+.imagBouton{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin:10px 50px 1px -70px; /* haut | droit | bas | gauche */
+    visibility: hidden;
+}
+
+@media only screen and (max-width:1100px){
+    
+    .menu_defaut{
+        visibility: hidden;
+    }
+    .menu_connecte .text{
+        visibility: hidden;
+    }
+    .imagBouton{
+        visibility: visible;
+    }
+    .Bodd .BCmenu {
+        visibility: visible;
+    }
+    .Bodd .menu {
+        visibility: visible;
+    }
+    
+}
+@media only screen and (min-width:1100px){
+    .Bodd .BCmenu {
+        visibility: hidden;
+    }
+    .Bodd .menu {
+        visibility: hidden;
+    }
+    
+}
+
+
+/* Pour les profil dans une box*/ 
+.boxname {
+    height: 60px;
+    margin:10px 0px 10px 75%;
+    display: inline-flex;
+    align-items: center;
+    background: rgb(133, 133, 133);
+    position: relative;
+
+}
+
+@media only screen and (max-width:800px){
+    .boxname{
+        margin:10px 0px 10px 10%;
+    }
+    
+}
+
+.boxname .imag{
+    width: 50px;
+    height: 50px;
+    margin:1px 10px 1px 10px; /* haut | droit | bas | gauche */
+    position: relative;
+}
+
+.boxname .usern{
+    font-family: "Autumn";
+    width: 100%;
+    font-size: 30px;
+    align-items: right;
+    flex-direction: center;
+    display: flex;
+    margin:1px 10px 1px 10px; /* haut | droit | bas | gauche */
+    color: rgb(255, 255, 255);
+    
+}
+
+/*_______________________________________________________________*/
+
+.recherche{
+    margin-left: 20%;
+    margin-top: auto ;
+    margin-bottom: auto ;
+    position: relative;
+    display: flex;
+    vertical-align: auto;
+    height: 45px;
+    width: 500px;
+}
+
+
+
+.Bodd{
+    padding-left: 10px;
+    padding-top: 100px ;
+}
+
+/* Pour les onclet Jeux Populaire | Jeux Jouable en ligne | Jeux Jauable en telechargement */
+.Bodd .TitreJP{
+    font-size: 50px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-bottom: 10px;
+}
+
+.Bodd .BoxJ{
+    width: 95%;
+    height: 300px;
+    margin:10px -100px 10px 10px;
+    display: inline-flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: left;
+    background: rgb(133, 133, 133);
+    position: relative;
+    overflow: auto;
+}
+
+.Bodd .BoxJ .imaJ{
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    margin:10px 20% 10px 10px; /* haut | droit | bas | gauche */
+    display: block;
+    justify-content: left;
+    align-items: left;
+    flex-direction: left;
+    background: rgb(68, 68, 68);
+    
+}
+
+.Bodd .BoxJ .imaJ .imag{
+    width: 100%;
+    height: 100%;
+}
+
+.Bodd .BoxJ .descr{
+    position: absolute;
+    border: solid 2px;
+    width: 70%;
+    height: 280px;
+    margin:10px 0px 10px 350px; /* haut | droit | bas | gauche */
+    display: block;
+    justify-content: left;
+    align-items: left;
+    flex-direction: left;
+    
+}
+
+@media (min-width: 1200px) and (max-width: 1600px){
+    .Bodd .BoxJ .descr{
+        position: absolute;
+        border: solid 2px;
+        width: 70%;
+        height: 280px;
+        margin:10px 0px 10px 350px; /* haut | droit | bas | gauche */
+        display: block;
+        justify-content: left;
+        align-items: left;
+        flex-direction: left;
+        overflow: auto;
+    }
+}
+
+.Bodd .BoxJ .descr .titreBJ{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    color: black;
+}
+
+.Bodd .BoxJ .descr .des{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 70px;
+    
+}
+
+/*__________________________________________________________*/
+
+/* le block de menu  */
+
+.Bodd .BCmenu {
+    position: fixed;
+    margin:-40px 0px 0px -14px; /* haut | droit | bas | gauche */
+    width: 110%;
+    height: 110%;
+    background: rgb(200, 200, 200);
+    z-index: 1;
+    opacity: 0.3;
+}
+.Bodd .BCmenu .BotBC{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgb(200, 200, 200);
+    opacity: 0.1;
+}
+.Bodd .BCmenu_invisible{
+    display: none;
+
+}
+.Bodd .menu {
+    position: fixed;
+    width: 400px;
+    height: 100%;
+    margin:-40px 0px 0px -14px; /* haut | droit | bas | gauche */
+    text-align: center;
+    background: rgb(200, 200, 200);
+    z-index: 2;
+    border: solid rgb(97, 97, 97) 5px;
+}
+
+.Bodd .menu .Bacuielle{
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.Bodd .menu .Deconnect{
+    font-size: 50px;
+    text-decoration: none;
+    color: red;
+}
+/*_________________________________________________*/
+
+
+.Bodd .titre{
+
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    
+    
+}
+/* BTV = Bouton tous voir */
+.Bodd .BTV{
+    margin-left: 10px;
+    font-size: 20px;
+    border: 1px solid;
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    padding: 0 5px;
+    background-color: orange;
+    
+}
+
+.Bodd .box {
+	position: relative;
+    width: 100.2%;
+    height: 225px;
+    margin: 25px;
+    margin-left: -4px;
+    display: flex;
+    vertical-align: auto;
+    justify-content: center;
+    align-items: center;
+    background: rgb(149, 149, 149);
+    
+}
+
+.Bodd .box .scrol{
+	position: relative;
+    width: 99%;
+    height: 98%;
+    display:flex;
+    margin: 0 auto;
+    border:rgb(107, 107, 107);
+    background: rgb(200, 200, 200);
+    overflow: auto;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* Block & Image jeux */
+
+.Bodd .box .scrol .game{
+    width: 200px;
+    height: 200px;
+    top: 1px;
+    margin-left: 50px;
+    background: rgb(107, 107, 107);
+}
+.Bodd .box .scrol .game .imag{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+.Bodd .boxjeuxdesc {
+	position: relative;
+    width: 100.2%;
+    height: 100%;
+    margin-top: 25px;
+    margin-left: -6px;
+    display: flex;
+    background: rgb(149, 149, 149);
+    flex-direction: column;
+    
+}
+
+.Bodd .boxjeuxdesc .favorie{
+    border: solid 3px black;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding:10px;
+    width: 20%;
+    height: 100%;
+    font-size: 23px;
+    font-weight: 700px;
+    color: black;
+    text-align: center;
+    background-color: white;
+}
+
+.Bodd .boxjeuxdesc .titredescrip{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 700px;
+    text-decoration: underline;
+}
+.Bodd .boxjeuxdesc .descrip{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 700px;
+    
+}
+
+/* Parti CSS de la boutique */
+/*
+.Bodd .BoutiqueBlock{
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    border: solid black 1px;
+    background: grey;
+    
+    
+}
+
+@media only screen and (max-width:800px){
+    .Bodd .BoutiqueBlock{
+        margin-left: 0%;
+        width: 80%;
+
+    }
+    
+}
+
+.Bodd .BoutiqueBlock .bloc{
+    position: flex;
+    width: 200px;
+    height: 280px;
+    border: solid black 2px;
+    background: white;
+    text-align: center;
+    display: inline-block;
+    margin: 1px 0px 8px 30px; /* haut | droit | bas | gauche *
+
+}
+
+@media only screen and (max-width:800px){
+    .Bodd .BoutiqueBlock .bloc{
+        margin: 1px 0px 8px 50px; /* haut | droit | bas | gauche *
+
+    }
+    
+}
+
+.Bodd .BoutiqueBlock .titreB{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    margin: 1px 0px 8px 8px; /* haut | droit | bas | gauche *
+
+}
+
+.Bodd .BoutiqueBlock .bloc .image{
+    position: flex;
+    margin: -1px 0px 0px -2px; /* haut | droit | bas | gauche *
+    width: 200px;
+    height: 200px;
+    border: solid black 1px;
+    
+}
+.Bodd .BoutiqueBlock .bloc .titreart{
+    text-align: center;
+    font-size: 20px;
+    
+}
+.Bodd .BoutiqueBlock .bloc .boutonV{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border: solid grey 2px;
+    border-radius: 3px;
+    background: orange;
+    
+}
+*/

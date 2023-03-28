@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    position: fixed;
+    width: 100%;
+    display: inline-flex;
+    justify-content: left;
+    flex-direction: center;
+    align-items: Left;
+    
+    transition: 0.6s;
+    padding: 0px 100px;
+    z-index: 10000;
+    background: rgb(255, 145, 0);
+}
+
+body {
+    
+    width:100%;
+    min-width: 700px;
+    max-width:1980px;
+    background-color: rgb(56, 56, 56);
+    z-index: -10;
+    margin:auto;
+    display: run-in;
+    
+    
+}
+
+@font-face {
+    font-family: "Baby Kruffy";
+    src: url("../Baby Kruffy.ttf");
+}
+
+.Titre{
+    color: white;
+    font-size: 50px;
+    font-family: Baby Kruffy;
+    text-decoration: none;
+    
+}
+
+.TitreP{
+    color: white;
+    font-size: 50px;
+    font-family: Baby Kruffy;
+    margin-top: 10px;
+    
+}
+
+
+.login{
+    font-family: Autumn;
+
+    justify-content: center;
+    font-size: 30px;
+    
+    margin-left: 20%;
+    margin-top: 12px ;
+    margin-bottom: 12px ;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.register{
+    font-family: Autumn;
+
+    justify-content: center;
+    font-size: 30px;
+    
+    margin-left: 5%;
+    margin-top: 12px ;
+    margin-bottom: 12px ;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.recherche{
+    margin-left: 20%;
+    margin-top: auto ;
+    margin-bottom: auto ;
+    position: relative;
+    display: flex;
+    vertical-align: auto;
+    height: 45px;
+    width: 500px;
+}
+
+.BoddJeux{
+    padding-left: 10px;
+    padding-top: 100px ;
+    
+}
+
+.BoddJeux .box{
+	position: relative;
+    width: 85%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: block;
+    background: rgb(149, 149, 149);
+    
+}
+
+.BoddJeux .boxTitre{
+	position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    background: rgb(206, 206, 206);
+    
+}
+
+.BoddJeux .boxTitre .titre{
+
+    font-size: 60px;
+    font-weight: 700px;
+    justify-content: center;
+}
+
+.BoddJeux .box .imagblock{
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background: rgb(122, 122, 122);
+    
+}
+
+.BoddJeux .box .imagblock .imagP{
+    position: relative;
+    width: 80%;
+    height:  700px;
+    justify-content: center;
+    background: rgb(122, 122, 122);
+    border: solid #5d5d5d;
+}
+.BoddJeux .box .imagblock .imagP .imag{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background: rgb(122, 122, 122);
+    
+}
+
+.BoddJeux .box .imagblock .imagS{
+    position: absolute;
+    width: 20%;
+    height:  700px;
+    margin:-700px 0px 1px 80%; /* haut | droit | bas | gauche */
+    background: rgb(122, 122, 122);
+    vertical-align: auto;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+
+
+.BoddJeux .box .imagblock .imagS .imag1{
+    position: relative;
+    width: 100%;
+    height:  150px;
+    justify-content: center;
+    background: rgb(122, 122, 122);
+    border: solid #5d5d5d;
+    
+}
+
+.BoddJeux .box .titredescrip{
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700px;
+    text-decoration: underline;
+}
+.BoddJeux .box .descrip{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 700px;
+    
+}
+
+.BoddJeux .box .titretelechargement{
+    margin-left: 20px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700px;
+    text-decoration: underline;
+}
+
+.BoddJeux .telechargement{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 700px;
+    text-decoration: underline overline;
+}
+
+.BoddJeux .invi{
+
+    margin-top: 50px;
+    font-size: 1px;
+    font-weight: 700px;
+    z-index: -10000;
+}

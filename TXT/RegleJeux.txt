@@ -1,0 +1,26 @@
+Speedclick
+
+Vous disposez d'une minute pour cliquer sur un maximum de blocs bleus. 
+Le chronomètre démarrera quand vous cliquerez sur le premier bloc bleu. 
+Bonne chance.
+
+
+Simon
+
+Observez et retenez le cycle, puis reproduisez le. 
+Bonne chance. 
+Conseil : mettre la page web en full screen "F11".
+
+
+Snake
+
+Récuperez les pommes sans toucher votre corps ou les murs. 
+Bonne chance. 
+Conseil : mettre la page wed en full screen "F11".
+
+
+Juste Prix
+
+Trouver le nombre choisi aléatoirement avec le moins d'essais possible. 
+Bonne chance. 
+Conseil : mettre la page web en full screen "F11".

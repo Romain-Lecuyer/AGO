@@ -1,0 +1,59 @@
+DESINTOX DU SITE (fonctionnalite, aucun css repris pour le moment)
+
+Avril
+    05/04/2022
+
+        page index fait (encore à améliorer si faut).
+        page jeux et profil à décider comment faire (à voir quand thierry rentrera de son voyage).
+        gestion des comptes.
+        modification de la bdd :
+        -rajout de la colonne "nblike" dans la table jeux.
+        -retrait de la colonne "favoris" dans la table utilisateur afin d'en creer une.
+
+
+
+    06/04/2022
+
+        retrait de la colonne "règle" et rajout de la colonne "main" dans la table jeux
+        V1 de la page jeux (le jeu s'affiche pas mais le code y est) (favoris a voir)
+    
+    07/04/2022
+
+        rajout des connexion / inscription compte
+        V1 de la page compte
+
+    26/04/2022
+
+        ajoue du fichier image
+        modification du fichier index pour les image
+        ajoue du css pour la page d'accueil
+
+    27/04/2022
+
+        modification du fichier profil, son css, bdd
+        ajoue de l'affichage des amis plus de leur statut (en Ligne, Hors-ligne)
+        ajoue des amis en attent pour choisir si il sont accepter (pas encore fait rejeter et blocker)
+
+        début de développement de la fonctionnalite "publication d'un jeu en téléchargement" 
+        V1 pas encore testé à vérifier si elle envoie les fichiers au bon endroit
+        on ne peut pas encore mettre d'images.
+
+    02/05/2022
+	
+	rajout de la page "publication d'un jeu en téléchargement"
+	modification de la page actionProfil.php afin de répondre au besoin
+	
+	modification de la strucure de l'archivage du site. Les images des jeux sont maintenant dans les dossiers correspondant à leur jeu
+	modification de l'index afin que les images s'affiche.
+	modification de la page jeux afin le jeu s'affiche.
+
+
+    03/05/2022
+
+    rajout du main et js de jeux en ligne (hors JP)
+    rajout du css et mise en fonction du speedclick
+    reorganisation de la page jeux.php
+    
+    05/05/2022
+
+    ajoue de jeux avec leur css main et code qui leur conserne

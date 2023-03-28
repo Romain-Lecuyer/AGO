@@ -1,0 +1,210 @@
+@font-face {
+    font-family: "Baby Kruffy";
+    src: url("../Font/Baby Kruffy.ttf");
+}
+@font-face {
+    font-family: "Bahnschrift";
+    src: url("../Font/BAHNSCHRIFT.TTF");
+}
+@font-face {
+    font-family: "Autumn";
+    src: url("../Font/Autumn\ Regular.ttf");
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    position: fixed;
+    width: 100%;
+    margin-left: 0px;
+    display: inline-flex;
+    justify-content: left;
+    flex-direction: center;
+    align-items: Left;
+    
+    transition: 0.6s;
+    padding: 0px 100px;
+    z-index: 10000;
+    background: rgb(255, 145, 0);
+}
+
+body {
+    
+    width:100%;
+    min-width: 700px;
+    max-width:1980px;
+    background-color: white;
+    z-index: -10;
+    margin:auto;
+    display: run-in;
+    position: flex;
+    
+}
+
+.Titre{
+    position: relative;
+    color: white;
+    font-size: 40px;
+    font-family: "Baby Kruffy";
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+
+/*_______________________________________________________________*/
+
+.Bodd{
+    padding-left: 10px;
+    padding-top: 100px ;
+}
+
+.Bodd .box{
+    width: 85%;
+    height: 100%;
+    margin:0px 5% 10px 5%; /* haut | droit | bas | gauche */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(133, 133, 133);
+    position: relative;
+    flex-direction: column
+}
+
+.Bodd .box .cercle {
+    position: relative;
+    border: solid white 10px;
+    width: 350px;
+    height: 350px;
+    border-radius: 100px;
+    margin-top: 10px;
+    z-index: 1;
+}
+.Bodd .box .cercle .imag {
+    width: 100%;
+    height: 100%;
+    border-radius: 90px;
+}
+
+.Bodd .box .name {
+    position: relative;
+    font-size: 100px;
+    font-family: "Autumn";
+}
+
+.Bodd .box .descrip {
+    position: relative;
+    font-size: 20px;
+    font-family: "Autumn";
+}
+
+.Bodd .box .boutton {
+    position: relative;
+    font-size: 20px;
+    font-family: "Autumn";
+    border: solid 2px black;
+}
+
+/* Partie liste d'amis plus en attente plus jeux en favori */
+.Bodd .box2{
+    width: 85%;
+    height: 100%;
+    padding-bottom: 10px;
+    margin:10px 5% 10px 5%; /* haut | droit | bas | gauche */
+    display: block;
+    justify-content: left;
+    align-items: left;
+    flex-direction: left;
+    background: rgb(133, 133, 133);
+    position: relative;
+}
+
+.Bodd .box2 .titredescrip{
+    padding-left: 20px;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-weight: 700px;
+    text-decoration: underline;
+    font-family: "Autumn";
+}
+
+.Bodd .box2 .scrol{
+    position: relative;
+    width: 99%;
+    height: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display:flex;
+    margin: 0 auto;
+    border:rgb(107, 107, 107);
+    background: rgb(200, 200, 200);
+    overflow: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Bodd .box2 .scrol .game{
+    width: 200px;
+    height: 200px;
+    top: 1px;
+    margin-left: 50px;
+    background: rgb(107, 107, 107);
+}
+.Bodd .box2 .scrol .game .imag{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+.Bodd .box2 .scrol .amis{
+    width: 200px;
+    height: 200px;
+    top: 1px;
+    margin-left: 50px;
+    background: rgb(107, 107, 107);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Bodd .box2 .scrol .amis .imagamis{
+    margin-top: 5px;
+    width: 60%;
+    height: 60%;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+
+.Bodd .box2 .scrol .amis .pseudo{
+    font-size: 20px;
+    font-weight: 700px;
+    text-decoration: underline;
+    font-family: "Autumn";
+    color: black;
+}
+.Bodd .box2 .scrol .amis .descrip{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 700px;
+    font-family: "Autumn";
+    text-align: center;
+}
+
+.Bodd .box2 .scrol .amis .statut{
+    margin-top: 2px;
+    font-size: 15px;
+    background: rgb(200, 200, 200);
+}
+
+.Bodd .box2 .scrol .amis .choix_amis{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
